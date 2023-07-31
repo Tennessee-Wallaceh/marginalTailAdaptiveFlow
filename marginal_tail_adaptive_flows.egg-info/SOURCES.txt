@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+marginal_tail_adaptive_flows/__init__.py
+marginal_tail_adaptive_flows.egg-info/PKG-INFO
+marginal_tail_adaptive_flows.egg-info/SOURCES.txt
+marginal_tail_adaptive_flows.egg-info/dependency_links.txt
+marginal_tail_adaptive_flows.egg-info/top_level.txt
