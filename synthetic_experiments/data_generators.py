@@ -78,7 +78,8 @@ class copula_generator:
         self.marginals = []
 
         # correlation matrix with random 0.25 on off-diag
-        np.random.seed(seed)
+        ot.RandomGenerator.SetSeed(seed)
+        np.random.seed(3)
         self.R = ot.CorrelationMatrix(D)
         if self.D!=50:
             for i in range(2*D): # number of non-zero entries = 2*D

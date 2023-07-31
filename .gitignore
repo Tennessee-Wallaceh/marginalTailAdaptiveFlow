@@ -11,3 +11,7 @@ synthetic_experiments/df*/
 synthetic_experiments/data/
 
 utils/__pycache__
+
+__pycache__/
+*.py[cod]
+*$py.class
